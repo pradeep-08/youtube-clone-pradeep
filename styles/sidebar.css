@@ -1,0 +1,92 @@
+.sidebar{
+    position: fixed;
+    left: 15px;
+    bottom: 0;
+    top: 75px;
+    width: 200px;
+    background-color: white;
+    z-index: 200;
+}
+.sidebar-link{
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sidehome{
+    background-color:rgb(240, 240, 240)
+    ;
+}
+.sidebar-link img{
+    height: 24px;
+    margin-left: 10px;
+}
+
+
+.sidebar-link div{
+    font-family: Roboto , arial;
+    font-size: 14px;
+    align-items: center;
+    vertical-align: 0;
+    padding-left: 15px;
+    font-weight: 100;
+    margin-right: 5px;
+}
+
+@media (min-width: 550px) and (max-width: 699px){
+    .sidebar{
+        width: 75px;
+    } 
+    .sidebar-link{
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sidehome{
+        background-color: white;
+    }
+    .sidebar-link img{
+        height: 24px;
+    }
+    
+.sidebar-link div{
+    font-family: Roboto , arial;
+    font-size: 8px;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+
+
+
+}
+
+
+.sidebar-link:hover{
+    background-color: rgb(235 235 235);
+    cursor: pointer;
+}
+
+
+
+
+.sidebar-link div{
+    font-family: Roboto , arial;
+    font-size: 14px;
+    align-items: center;
+    vertical-align: 0;
+    padding-left: 15px;
+    font-weight: 100;
+    margin-right: 5px;
+}
+
+.youtube-spread-line{
+    height: 1px;
+    background-color: rgb(235 235 235);
+    border-top: 0;
+    border-bottom: 0;
+}
