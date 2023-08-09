@@ -25,7 +25,7 @@ body{
     right: 5px;
 }
 
-@media (min-width: 550px) and (max-width: 699px){
+@media (max-width: 699px){
     body{
         margin-left: 130px;
     }
@@ -91,7 +91,7 @@ cursor: pointer;
     row-gap: 40px;
 }
 
-@media (min-width: 550px) and (max-width: 700px){
+@media (max-width: 700px){
     .video-grid{
         grid-template-columns: 1fr ;
     }
