@@ -25,9 +25,20 @@ body{
     right: 5px;
 }
 
-@media (max-width: 699px){
+@media  (max-width: 699px){
     body{
-        margin-left: 130px;
+        margin-left: 100px;
+    }
+    .thumbnails{
+        width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+  
+}
+@media  (min-width:320px) and (max-width: 425px){
+    body{
+        margin-left: 100px;
     }
     .thumbnails{
         width: 100%;
