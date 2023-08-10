@@ -35,12 +35,41 @@
     margin-right: 5px;
 }
 
-@media (min-width: 550px) and (max-width: 699px){
+@media (max-width: 699px){
     .sidebar{
-        width: 75px;
+        width: 60px;
     } 
     .sidebar-link{
         height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sidehome{
+        background-color: white;
+    }
+    .sidebar-link img{
+        height: 24px;
+    }
+    
+.sidebar-link div{
+    font-family: Roboto , arial;
+    font-size: 8px;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+
+
+
+}
+@media (min-width:320px)and(max-width: 425px){
+    .sidebar{
+        width: 20px;
+    } 
+    .sidebar-link{
+        height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
